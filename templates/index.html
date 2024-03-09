@@ -1,0 +1,621 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Sân chơi cầu vồng</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="{{ url_for('static', filename='./assets/img/sccv_icon.jpg') }}"
+    />
+    <!-- CSS FILES -->
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="../static/css/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="../static/css/templatemo-kind-heart-charity.css" rel="stylesheet">
+    <!--
+
+TemplateMo 581 Kind Heart Charity
+
+https://templatemo.com/tm-581-kind-heart-charity
+
+-->
+
+</head>
+
+<body id="section_1">
+
+
+    <header class="site-header">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-8 col-12 d-flex flex-wrap">
+                    <p class="d-flex me-4 mb-0">
+                        Sân chơi cầu vồng
+                    </p>
+
+                    <p class="d-flex mb-0">
+                            sanchoicauvong@gmail.com
+                    </p>
+                </div>
+
+
+
+            </div>
+        </div>
+    </header>
+
+{% include "nav_bar.html" %}
+
+    <main>
+
+        <section class="hero-section hero-section-full-height">
+            <div class="container-fluid">
+                <div class="row">
+
+                    <div class="col-lg-12 col-12 p-0">
+                        <div id="hero-slide" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="../static/assets/images/slide/sccv_tpl_3.jpg"
+                                        class="carousel-image img-fluid" alt="..." style="width:1850px; heigh:675px; object-fit: contain">
+
+                                    <div class="carousel-caption d-flex flex-column justify-content-end">
+                                        <h1>Phi lợi nhuận</h1>
+
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img src="../static/assets/images/slide/img_2.png"
+                                        class="carousel-image img-fluid" alt="..." style="width:1850px; heigh:675px; object-fit: contain">
+
+                                    <div class="carousel-caption d-flex flex-column justify-content-end">
+                                        <h1>Môi trường an toàn</h1>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img src="../static/assets/images/slide/sccv_tpl_2.jpg"
+                                        class="carousel-image img-fluid" alt="..." style="width:1850px; heigh:675px; object-fit: contain">
+
+                                    <div class="carousel-caption d-flex flex-column justify-content-end">
+                                        <h1>Năng động</h1>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../static/assets/images/slide/img_1.png"
+                                        class="carousel-image img-fluid" alt="..." style="width:1850px; heigh:675px; object-fit: contain">
+
+                                    <div class="carousel-caption d-flex flex-column justify-content-end">
+                                        <h1>Sáng tạo</h1>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../static/assets/images/slide/img.png"
+                                        class="carousel-image img-fluid" alt="..." style="width:1850px; heigh:675px; object-fit: contain">
+
+                                    <div class="carousel-caption d-flex flex-column justify-content-end">
+                                        <h1>Tự chủ</h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button class="carousel-control-prev" type="button" data-bs-target="#hero-slide"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+
+                            <button class="carousel-control-next" type="button" data-bs-target="#hero-slide"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section-padding">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-10 col-12 text-center mx-auto">
+                        <h2 class="mb-5">Welcome to Kind Heart Charity</h2>
+                    </div>
+
+                    <div class="col-lg-6 col-md-12 col-12 mb-6 mb-lg-0">
+                        <div class="featured-block d-flex justify-content-center align-items-center">
+                            <a href="{{url_for('contact')}}" class="d-block">
+                                <img src="../static/assets/images/icons/hands.png" class="featured-block-image img-fluid" alt="">
+
+                                <p class="featured-block-text">Become a <strong>volunteer</strong></p>
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-6 col-md-12 col-12 mb-6 mb-lg-0 mb-md-6">
+                        <div class="featured-block d-flex justify-content-center align-items-center">
+                            <a href="{{url_for('donate')}}" class="d-block">
+                                <img src="../static/assets/images/icons/receive.png" class="featured-block-image img-fluid" alt="">
+
+                                <p class="featured-block-text">Make a <strong>Donation</strong></p>
+                            </a>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding" id="section_2">
+            <div class="image">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-6 col-12 mb-5 mb-lg-0">
+                        <img src="../static/assets/images/sccv_2.jpg"
+                            class="custom-text-box-image img-fluid" alt="">
+                    </div>
+
+                    <div class="col-lg-6 col-12">
+                        <div class="custom-text-box">
+                            <h2 class="mb-2">Our Story</h2>
+
+                            <h5 class="mb-3">Kind Heart Charity, Non-Profit Organization</h5>
+
+                            <p class="mb-0">Thành lập năm 2022, Sân Chơi Cầu Vồng tự hào là một trong những tổ chức xã hội đầu tiên và duy nhất
+trong lĩnh vực kiến tạo không gian chơi tại Việt Nam. Sau một năm hoạt động, tổ chức đã hoàn thiện 4
+không gian chơi cho hơn 600 trẻ em thuộc 4 điểm trường mầm non, tiểu học tại khu vực Tây Nguyên.</p>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-12">
+                                <div class="custom-text-box mb-lg-0">
+                                    <h5 class="mb-3">Our Mission</h5>
+
+                                    <p>Dự án Sân Chơi Cầu Vồng với sứ mệnh tạo sân chơi cộng đồng an toàn cho trẻ em ở vùng cao, vùng xa</p>
+
+<!--                                    <ul class="custom-list mt-2">-->
+<!--                                        <li class="custom-list-item d-flex">-->
+<!--                                            <i class="bi-check custom-text-box-icon me-2"></i>-->
+<!--                                            Charity Theme-->
+<!--                                        </li>-->
+
+<!--                                        <li class="custom-list-item d-flex">-->
+<!--                                            <i class="bi-check custom-text-box-icon me-2"></i>-->
+<!--                                            Semantic HTML-->
+<!--                                        </li>-->
+<!--                                    </ul>-->
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-12">
+                                <div class="custom-text-box d-flex flex-wrap d-lg-block mb-lg-0">
+                                    <div class="counter-thumb">
+                                        <span class="counter-text">Created in</span>
+                                        <div class="d-flex">
+                                            <span class="counter-number" data-from="1" data-to="2022"
+                                                data-speed="1000"></span>
+                                            <span class="counter-number-text"></span>
+                                        </div>
+
+
+                                    </div>
+
+                                    <div class="counter-thumb mt-4">
+                                        <span class="counter-text">Donations</span>
+                                        <div class="d-flex">
+                                            <span class="counter-number" data-from="1" data-to="203"
+                                                data-speed="1000"></span>
+                                            <span class="counter-number-text">Tr</span>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="about-section section-padding">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-6 col-md-5 col-12">
+                        <img src="../static/assets/images/avatar/founder.png"
+                            class="about-image ms-lg-auto bg-light shadow-lg img-fluid" alt="">
+                    </div>
+
+                    <div class="col-lg-5 col-md-7 col-12">
+                        <div class="custom-text-block">
+                            <h2 class="mb-0">CÂU CHUYỆN FOUNDER</h2>
+
+                            <p class="text-muted mb-lg-4 mb-md-4">“Ngày tôi 5 tuổi, vì chơi ở ngoài đường mà đứa bạn thân bị
+gãy tay do xe tông trúng. Điều đó rất khó quên.</p>
+
+                            <p>
+Năm tôi 20 tuổi, làm nhân viên gác trạm trò chơi ở công
+viên và khu giải trí cho trẻ em, tôi thấy một bé trai khóc vì
+bị mẹ đánh đòn, nhưng vẫn không ngừng xin mẹ cho chơi
+trò đu ngựa...
+Những điều đó càng thôi thúc tôi nhiều hơn trong việc
+thực hiện dự án sân chơi cho các em nhỏ ở địa phương
+xa, còn nhiều khó khăn.</p>
+
+                            <p>Ước mơ của tôi là các bạn nhỏ được lớn lên hạnh phúc,
+và sân chơi cho các em chính là yếu tố có thể giúp nhân
+niềm vui lên nhiều lần.”</p>
+
+                            <ul class="social-icon mt-4">
+
+                                <li class="social-icon-item">
+                                    <a href="https://www.facebook.com/sanchoicauvong" class="social-icon-link bi-facebook"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+        <section class="testimonial-section section-padding section-bg">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-10 col-12 mx-auto">
+                        <h2 class="mb-lg-3">Nhân sự nòng cốt</h2>
+
+                        <div id="testimonial-carousel" class="carousel carousel-fade slide" data-bs-ride="carousel">
+
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="carousel-caption">
+                                        <h4 class="carousel-title">NGUYỄN THANH PHONG</h4>
+                                        <h5>Quản lý dự án</h5>
+                                        <p>Kiến trúc sư Quy Hoạch.</p>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="carousel-caption">
+                                        <h4 class="carousel-title">NGUYỄN TRẦN KHÁNH NGỌC</h4>
+                                        <h5>Trưởng ban workshop</h5>
+                                        <p>Kiến trúc sư, Giám đốc bộ phận Học thuật - ARKKI VIETNAM.</p>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="carousel-caption">
+                                        <h4 class="carousel-title">PHAN THỊ HOÀ</h4>
+                                        <h5>Đồng sáng lập dự án</h5>
+                                        <p>Nhân viên phân tích dữ liệu tại GeoComply. </p>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                   <div class="carousel-caption">
+                                        <h4 class="carousel-title">LÊ THÀNH MINH</h4>
+                                        <h5>Trưởng ban thi công</h5>
+                                        <p>Kiến trúc sư.</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                   <div class="carousel-caption">
+                                        <h4 class="carousel-title">LÊ THỊ LÝ</h4>
+                                        <h5>Đồng sáng lập dự án</h5>
+                                        <p>Nhân viên Learning & Development tại Nestlé.</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                   <div class="carousel-caption">
+                                        <h4 class="carousel-title">NGUYỄN HOÀNG TRUNG NHẬT</h4>
+                                        <h5>Trưởng ban vẽ tường</h5>
+                                        <p>Họa sĩ.</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                   <div class="carousel-caption">
+                                        <h4 class="carousel-title">TRÌNH BÁ QUÂN</h4>
+                                        <h5>Trưởng ban thiết kế</h5>
+                                        <p>Kiến trúc sư tại Công Ty Thiết Kế Kiến Trúc H.a Workshop.</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                   <div class="carousel-caption">
+                                        <h4 class="carousel-title">HUỲNH LÊ THANH TRÂM</h4>
+                                        <h5>Trưởng ban truyền thông</h5>
+                                        <p>Creative Strategist tại B2B Digital Marketing Agency</p>
+                                    </div>
+                                </div>
+
+
+                                <ol class="carousel-indicators">
+                                    <li data-bs-target="#testimonial-carousel" data-bs-slide-to="0" class="active">
+                                            <img src="../static/assets/images/avatar/founder_1.png"
+                                            class="img-fluid rounded-circle avatar-image" alt="avatar">
+                                    </li>
+
+                                    <li data-bs-target="#testimonial-carousel" data-bs-slide-to="1" class="">
+                                        <img src="../static/assets/images/avatar/founder_2.png"
+                                            class="img-fluid rounded-circle avatar-image" alt="avatar">
+                                    </li>
+
+                                    <li data-bs-target="#testimonial-carousel" data-bs-slide-to="2" class="">
+                                        <img src="../static/assets/images/avatar/founder_3.png"
+                                            class="img-fluid rounded-circle avatar-image" alt="avatar">
+                                    </li>
+
+                                    <li data-bs-target="#testimonial-carousel" data-bs-slide-to="3" class="">
+                                        <img src="../static/assets/images/avatar/founder_4.png"
+                                            class="img-fluid rounded-circle avatar-image" alt="avatar">
+                                    </li>
+                                    <li data-bs-target="#testimonial-carousel" data-bs-slide-to="4" class="">
+                                        <img src="../static/assets/images/avatar/founder_5.png"
+                                            class="img-fluid rounded-circle avatar-image" alt="avatar">
+                                    </li>
+                                    <li data-bs-target="#testimonial-carousel" data-bs-slide-to="5" class="">
+                                        <img src="../static/assets/images/avatar/founder_6.png"
+                                            class="img-fluid rounded-circle avatar-image" alt="avatar">
+                                    </li>
+                                    <li data-bs-target="#testimonial-carousel" data-bs-slide-to="6" class="">
+                                        <img src="../static/assets/images/avatar/founder_7.png"
+                                            class="img-fluid rounded-circle avatar-image" alt="avatar">
+                                    </li>
+                                    <li data-bs-target="#testimonial-carousel" data-bs-slide-to="7" class="">
+                                        <img src="../static/assets/images/avatar/founder_8.png"
+                                            class="img-fluid rounded-circle avatar-image" alt="avatar">
+                                    </li>
+                                </ol>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="news-section section-padding" id="section_5">
+            <div class="container">
+                <div class="mb-5 mb-lg-0">
+                    <h2 style="text-align:center text-color:#5BC1AC">TÌNH NGUYỆN VIÊN CỦA DỰ ÁN QUA CÁC MÙA</h2>
+                    <img src="../static/assets/images/TNV_cac_mua/s1.png" style="display: block; margin-left: auto;margin-right: auto;width: 100%;">
+                    <br>
+                    <img src="../static/assets/images/TNV_cac_mua/s2.png" style="display: block; margin-left: auto;margin-right: auto;width: 100%;">
+                    <br>
+                    <img src="../static/assets/images/TNV_cac_mua/s3.png" style="display: block; margin-left: auto;margin-right: auto;width: 100%;">
+                    <br>
+                    <img src="../static/assets/images/TNV_cac_mua/s4.png" style="display: block; margin-left: auto;margin-right: auto;width: 70%;">
+
+                </div>
+            </div>
+        </section>
+
+         <section class="cta-section section-padding section-bg">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+
+                    <div class="col-lg-5 col-12 ms-auto">
+                        <h2 class="mb-0">Make an impact. <br> Save lives.</h2>
+                    </div>
+
+                    <div class="col-lg-5 col-12">
+                        <a href="{{url_for('donate')}}" class="me-4">Make a donation</a>
+
+                        <a href="{{url_for('contact')}}" class="custom-btn btn smoothscroll">Become a volunteer</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class=" section-padding" id="section_4">
+            <div class="image">
+            <div class="content">
+                <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-12 col-12">
+                        <h2 class="text-white mb-4">Volunteer</h2>
+
+                        <form class="custom-form volunteer-form mb-5 mb-lg-0" action="{{url_for('donate')}}" method="post" role="form">
+                            <h3 class="mb-4">Become a volunteer today</h3>
+
+                            <div class="row">
+                                <div class="col-lg-6 col-12">
+                                    <input type="text" name="volunteer-name" id="volunteer-name" class="form-control"
+                                        placeholder="Jack Doe" required>
+                                </div>
+
+                                <div class="col-lg-6 col-12">
+                                    <input type="email" name="volunteer-email" id="volunteer-email"
+                                        pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Jackdoe@gmail.com"
+                                        required>
+                                </div>
+
+                                <div class="col-lg-6 col-12">
+                                    <input type="text" name="volunteer-subject" id="volunteer-subject"
+                                        class="form-control" placeholder="Subject" required>
+                                </div>
+
+                                <div class="col-lg-6 col-12">
+                                        <input type="text" name="volunteer-phone" id="volunteer-phone"
+                                        class="form-control" placeholder="Phone number" required>
+                                </div>
+                            </div>
+
+                            <textarea name="volunteer-message" rows="3" class="form-control" id="volunteer-message"
+                                placeholder="Comment (Optional)"></textarea>
+
+                            <button type="submit" class="form-control">Submit</button>
+                        </form>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="contact-section section-padding" id="section_6">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-4 col-12 ms-auto mb-5 mb-lg-0">
+                        <div class="contact-info-wrap">
+                            <h2>HR1</h2>
+
+                            <div class="contact-image-wrap d-flex flex-wrap">
+                                <img src="../static/assets/images/avatar/HR1.png"
+                                    class="img-fluid avatar-image" alt="">
+
+                                <div class="d-flex flex-column justify-content-center ms-3">
+                                    <p class="mb-0"><strong>DƯƠNG THỊ THẢO</strong></p>
+                                </div>
+                            </div>
+
+                            <div class="contact-info">
+                                <h5 class="mb-3">Contact Infomation</h5>
+
+                                <p class="d-flex mb-2">
+                                    <i class="bi-telephone me-2"></i>
+
+                                    <a href="tel: 0987304698">
+                                        0987304698
+                                    </a>
+                                </p>
+
+                                <p class="d-flex">
+                                    <i class="bi-envelope me-2"></i>
+
+                                    <a href="mailto:arch.thaoduong@gmail.com">
+                                          arch.thaoduong@gmail.com
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5 col-12 mx-auto">
+                        <div class="custom-form contact-form">
+                            <h2>HR2</h2>
+
+                            <div class="contact-image-wrap d-flex flex-wrap">
+                                <img src="../static/assets/images/avatar/HR2.png"
+                                    class="img-fluid avatar-image" alt="">
+
+                                <div class="d-flex flex-column justify-content-center ms-3">
+                                    <p class="mb-0"><strong>PHAN THỊ HOÀ</strong></p>
+                                </div>
+                            </div>
+
+                            <div class="contact-info">
+                                <h5 class="mb-3">Contact Infomation</h5>
+
+                                <p class="d-flex mb-2">
+                                    <i class="bi-telephone me-2"></i>
+
+                                    <a href="tel:0825301773">
+                                         0825301773
+                                    </a>
+                                </p>
+
+                                <p class="d-flex">
+                                    <i class="bi-envelope me-2"></i>
+
+                                    <a href="mailto:phoa1992001@gmail.com">
+                                          Email: phoa1992001@gmail.com
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-12 mb-5">
+                    <ul>
+        <li style="color:"><a href="https://www.facebook.com/sanchoicauvong">Fb: Sân chơi cầu vồng
+                            </a></li>
+        <li><a href="{{ url_for('contact') }}"> <p>Gmail: sanchoicauvong@gmail.com</p> </a></li>
+    </ul>
+                </div>
+
+                <div class="col-lg-7 col-md-8 col-12 mb-7">
+                    <h5 class="site-footer-title mb-3">Quick Links</h5>
+
+                    <ul class="footer-menu">
+                        <li class="footer-menu-item"><a href="{{url_for('about2')}}" class="footer-menu-link">Our Story</a></li>
+
+                        <li class="footer-menu-item"><a href="{{url_for('donate')}}" class="footer-menu-link">Donate</a></li>
+
+
+                        <li class="footer-menu-item"><a href="{{url_for('contact')}}" class="footer-menu-link">Become a volunteer</a></li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="site-footer-bottom">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-6 col-md-7 col-12">
+                        <p class="copyright-text mb-0">© 2024 <a href="{{url_for('about2')}}">Sân chơi cầu vồng.</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="../static/js/jquery.min.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+    <script src="../static/js/jquery.sticky.js"></script>
+    <script src="../static/js/click-scroll.js"></script>
+    <script src="../static/js/counter.js"></script>
+    <script src="../static/js/custom.js"></script>
+
+</body>
+
+</html>

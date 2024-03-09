@@ -1,0 +1,44 @@
+
+        <footer class="row row-cols-5 py-5 my-5 border-top">
+    <div class="col">
+      <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+
+    <ul>
+        <li><a href="https://www.facebook.com/sanchoicauvong">Fb: Sân chơi cầu vồng
+                            </a></li>
+        <li><a href="{{ url_for('contact') }}"> <p>Gmail: sanchoicauvong@gmail.com</p> </a></li>
+    </ul>
+    </div>
+
+    <div class="col">
+
+    </div>
+
+    <div class="col-lg-7 col-md-8 col-12 mb-7">
+                    <h5 class="site-footer-title mb-3">Quick Links</h5>
+
+                    <ul class="footer-menu">
+                        <li class="footer-menu-item"><a href="{{url_for('about2')}}" class="footer-menu-link">Our Story</a></li>
+
+                        <li class="footer-menu-item"><a href="{{url_for('donate')}}" class="footer-menu-link">Donate</a></li>
+
+
+                        <li class="footer-menu-item"><a href="{{url_for('contact')}}" class="footer-menu-link">Become a volunteer</a></li>
+
+                    </ul>
+                </div>
+    <div class="col div-site-footer">
+        <p class="element-s-n-ch-i-c-u-v">
+            <span class="text-wrapper">@ 2024</span><span class="span">Sân chơi cầu vồng.</span>
+        </p>
+    </div>
+  </footer>
+
+<!-- Bootstrap core JS-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+      <!-- Core theme JS-->
+      <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+.content_box3 {
+background-color: rgb(90, 111, 128);
+display: flex;
+flex-direction: column;
+}
+.content_box {
+align-items: center;
+background-color: rgb(255, 255, 255);
+border-radius: 20px 20px 20px 20px;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+gap: 14px 0px;
+margin: 149px auto 325px;
+padding: 49.5px 84px 87px 46px;
+width: 636px;
+@include md {
+  justify-content: center;
+}
+}
+.flex_col2 {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+width: 98.02%;
+@include xxl {
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+}
+}
+.title1 {
+align-items: center;
+color: rgb(246, 141, 101);
+display: flex;
+font: 600 32px/1.2 "Inter", Helvetica, Arial, serif;
+letter-spacing: -1px;
+margin: 0px 4px;
+@include xxl {
+  margin-bottom: unset;
+  margin-left: unset;
+  margin-right: unset;
+  margin-top: unset;
+  width: 100%;
+}
+}
+.medium_title {
+align-items: center;
+color: rgb(91, 193, 172);
+display: flex;
+font: 600 24px/1.19 "Inter", Helvetica, Arial, serif;
+letter-spacing: -1px;
+margin: 19.5px 4px 0px;
+@include xxl {
+  margin-bottom: unset;
+  margin-left: unset;
+  margin-right: unset;
+  margin-top: unset;
+  width: 100%;
+}
+}
+.medium_title1 {
+align-items: center;
+color: rgb(166, 207, 167);
+display: flex;
+font: 600 24px/1.19 "Inter", Helvetica, Arial, serif;
+letter-spacing: -1px;
+margin: 13.5px 0px 0px;
+@include xxl {
+  margin-bottom: unset;
+  margin-left: unset;
+  margin-right: unset;
+  margin-top: unset;
+  width: 100%;
+}
+}
+.image {
+border-radius: 17px 17px 17px 17px;
+margin: 66.5px 16.73% 0px auto;
+width: 283px;
+@include xxl {
+  margin-bottom: unset;
+  margin-left: unset;
+  margin-right: unset;
+  margin-top: unset;
+  width: 100%;
+}
+}
+.title {
+align-items: center;
+color: rgb(0, 0, 0);
+display: flex;
+font: 600 30px/0.95 "Inter", Helvetica, Arial, serif;
+letter-spacing: -1px;
+width: 92.49%;
+}

@@ -1,0 +1,190 @@
+.nav2 {
+  width: 1920px;
+  height: 117px;
+  background-color: #ff9aa2;
+}
+
+.nav2 .div-container {
+  position: relative;
+  width: 1320px;
+  height: 100px;
+  top: 8px;
+  left: 300px;
+}
+
+.nav2 .link {
+  position: absolute;
+  width: 90px;
+  height: 100px;
+  top: 0;
+  left: 48px;
+}
+
+.nav2 .sccv-icon-jpg {
+  position: relative;
+  height: 90px;
+  top: 5px;
+  background-image: url(../assets/img/sccv_icon.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.nav2 .div-navbar2responsive {
+  position: absolute;
+  width: 1118px;
+  height: 78px;
+  top: 11px;
+  left: 154px;
+}
+
+.nav2 .list-item-link {
+  position: absolute;
+  width: 97px;
+  height: 78px;
+  top: 0;
+  left: 323px;
+}
+
+.nav2 .overlap-group {
+  background-color: #ffb7b2;
+  position: relative;
+  height: 117px;
+  top: -19px;
+}
+
+.nav2 .home {
+  width: 65px;
+  position: absolute;
+  height: 22px;
+  top: 46px;
+  left: 16px;
+  font-family: "Open Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #616161;
+  font-size: 20px;
+  letter-spacing: 1.25px;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.nav2 .overlap-wrapper {
+  width: 146px;
+  left: 440px;
+  position: absolute;
+  height: 78px;
+  top: 0;
+}
+
+.nav2 .overlap {
+  background-color: #ffdac1;
+  position: relative;
+  height: 117px;
+  top: -19px;
+}
+
+.nav2 .about-us {
+  position: absolute;
+  width: 115px;
+  height: 22px;
+  top: 46px;
+  left: 16px;
+  font-family: "Open Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #616161;
+  font-size: 20px;
+  letter-spacing: 1.25px;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.nav2 .overlap-group-wrapper {
+  width: 192px;
+  left: 606px;
+  position: absolute;
+  height: 78px;
+  top: 0;
+}
+
+.nav2 .our-journal-wrapper {
+  width: 190px;
+  background-color: #e2f0cb;
+  position: relative;
+  height: 117px;
+  top: -19px;
+}
+
+.nav2 .our-journal {
+  position: absolute;
+  width: 161px;
+  height: 22px;
+  top: 46px;
+  left: 16px;
+  font-family: "Open Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #616161;
+  font-size: 20px;
+  letter-spacing: 1.25px;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.nav2 .div {
+  width: 137px;
+  left: 818px;
+  position: absolute;
+  height: 78px;
+  top: 0;
+}
+
+.nav2 .contact-wrapper {
+  background-color: #B5EAD7;
+  background-size: 100% 100%;
+  position: relative;
+  height: 117px;
+  top: -19px;
+}
+
+.nav2 .contact {
+  width: 105px;
+  position: absolute;
+  height: 22px;
+  top: 46px;
+  left: 16px;
+  font-family: "Open Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #616161;
+  font-size: 20px;
+  letter-spacing: 1.25px;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.nav2 .list-item-link-2 {
+  width: 122px;
+  left: 976px;
+  position: absolute;
+  height: 78px;
+  top: 0;
+}
+
+.nav2 .donate-wrapper {
+  background-color: #c7ceea;
+  position: relative;
+  height: 117px;
+  top: -19px;
+}
+
+.nav2 .donate {
+  position: absolute;
+  width: 91px;
+  height: 22px;
+  top: 46px;
+  left: 16px;
+  font-family: "Open Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #616161;
+  font-size: 20px;
+  letter-spacing: 1.25px;
+  line-height: 30px;
+  white-space: nowrap;
+}
